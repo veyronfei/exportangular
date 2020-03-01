@@ -1,2 +1,0 @@
-# exportangular
-Created with CodeSandbox
