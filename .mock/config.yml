@@ -1,2 +1,41 @@
 ---
-foo: "this is not a normal string\n"
+routes:
+  - name: get patients
+    description: get patients
+    request:
+      method: GET
+      path: /patients
+      queryParameters:
+        - key: value
+      headers:
+        - content: helllo
+      cookies:
+        - content: helllo
+      body: content in body
+    response:
+      statusCode: 200
+      headers:
+          - content: helllo
+      cookies:
+        - content: helllo
+      body: content in body
+  - name: post a patient
+    description: post a patient
+    request:
+      method: POST
+      path: /patients
+      body: {
+  "firstName": "firname",
+  "lastnema": "lastname"
+}
+    response:
+      statusCode: 200
+      headers:
+          - content: helllo
+      cookies:
+        - content: helllo
+      body: {
+  "id": "12",
+  "firstName": "firname",
+  "lastnema": "lastname"
+}
