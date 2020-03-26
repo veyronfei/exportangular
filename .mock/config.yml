@@ -1,4 +1,6 @@
 ---
+name: name of api
+description: very very long description
 routes:
   - name: get patients
     description: get patients
