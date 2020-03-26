@@ -10,16 +10,16 @@ routes:
       queryParameters:
         key: value
       headers:
-        - content: helllo
+        content: helllo
       cookies:
-        - content: helllo
+        content: helllo
       body: content in body
     response:
       statusCode: 200
       headers:
-          - content: helllo
+        content: helllo
       cookies:
-        - content: helllo
+        content: helllo
       body: content in body
   - name: post a patient
     description: post a patient
@@ -33,9 +33,9 @@ routes:
     response:
       statusCode: 200
       headers:
-          - content: helllo
+        content: helllo
       cookies:
-        - content: helllo
+        content: helllo
       body: {
   "id": "12",
   "firstName": "firname",
