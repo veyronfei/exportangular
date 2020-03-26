@@ -8,7 +8,7 @@ routes:
       method: GET
       path: /patients
       queryParameters:
-        - key: value
+        key: value
       headers:
         - content: helllo
       cookies:
