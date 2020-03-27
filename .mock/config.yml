@@ -34,8 +34,4 @@ mocks:
         content: helllo
       cookies:
         content: helllo
-      body: {
-  "id": "12",
-  "firstName": "firname",
-  "lastnema": "lastname"
-}
+      body: {"id": "12", "firstName": "firname", "lastnema": "lastname"}
