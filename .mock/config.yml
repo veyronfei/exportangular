@@ -1,5 +1,4 @@
 ---
-version: 1.0
 title: name of api
 description: very very long description
 mocks:
