@@ -27,10 +27,7 @@ mocks:
     request:
       method: POST
       path: /patients
-      body: {
-  "firstName": "firname",
-  "lastnema": "lastname"
-}
+      body: {"firstName": "firname", "lastnema": "lastname"}
     response:
       statusCode: 200
       headers:
