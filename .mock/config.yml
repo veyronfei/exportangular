@@ -26,11 +26,18 @@ mocks:
     request:
       method: POST
       path: /patients
-      body: {"firstName": "firname", "lastnema": "lastname"}
+      body: {
+  "firstName": "firname",
+  "lastnema": "lastname"
+}
     response:
       statusCode: 200
       headers:
         content: helllo
       cookies:
         content: helllo
-      body: {"id": "12", "firstName": "firname", "lastnema": "lastname"}
+      body: {
+  "id": "12",
+  "firstName": "firname",
+  "lastnema": "lastname"
+}
